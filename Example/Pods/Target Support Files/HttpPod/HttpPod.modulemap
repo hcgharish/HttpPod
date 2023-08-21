@@ -1,0 +1,6 @@
+framework module HttpPod {
+  umbrella header "HttpPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

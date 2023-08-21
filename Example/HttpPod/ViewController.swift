@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import HttpPod
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+       let ob = Testing();
+        ob.testing()
     }
 
     override func didReceiveMemoryWarning() {
