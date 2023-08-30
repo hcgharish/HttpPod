@@ -794,7 +794,6 @@
 		04AAF58C2A9EF00900F2F833 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0456FADF2A93D35800106795 /* AppNeeds.swift */,
 				0456FADA2A93D2E600106795 /* KeychainItemWrapper */,
 				0456FABA2A93D21E00106795 /* iOSDevCenters+GIF.swift */,
 				0456FAC92A93D29100106795 /* Button */,
@@ -1034,6 +1033,7 @@
 		32C9BFBB3FD95C12F1C155E126015F9B /* HttpPod */ = {
 			isa = PBXGroup;
 			children = (
+				0456FADF2A93D35800106795 /* AppNeeds.swift */,
 				04AAF58C2A9EF00900F2F833 /* Classes */,
 				FA254024467CDC3F89466C5AA7CCFCB6 /* ReplaceMe.swift */,
 				0520E63D5D8F628754DD4F2C902B9A84 /* Pod */,
