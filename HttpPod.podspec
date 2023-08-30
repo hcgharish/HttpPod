@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
+  hdajshdaj
 
   s.homepage         = 'https://github.com/hcgharish/HttpPod'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
