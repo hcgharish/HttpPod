@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HttpPod'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of HttpPod.'
 
 # This description is used to generate tags and improve search results.
@@ -18,25 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
 
   s.homepage         = 'https://github.com/hcgharish/HttpPod'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hcgharish' => 'hcg.harish@gmail.com' }
   s.source           = { :git => 'https://github.com/hcgharish/HttpPod.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'HttpPod/*.{swift}'
-  
-  # s.resource_bundles = {
-  #   'HttpPod' => ['HttpPod/Assets/*.png']
-  # }
+  s.source_files = 'HttpPod/Classes/**/*'
+  s.requires_arc = true
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
