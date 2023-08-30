@@ -18,7 +18,6 @@ class ViewController: UIViewController {
        let ob = Testing();
         ob.testing()
         
-        Http.instance().request(<#T##par: HttpParams##HttpParams#>, completionHandler: <#T##(HttpResponse?) -> Void#>)
     }
 
     override func didReceiveMemoryWarning() {
